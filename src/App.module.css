@@ -1,0 +1,40 @@
+.wrapper {
+  background: linear-gradient(
+    to bottom,
+    #4c9beb,
+    #72b6f9,
+    #a7d3ff,
+    #a8e1ff,
+    #a8e1ff
+  );
+
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 40px;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: background-image 1s ease-in-out;
+}
+
+.content {
+  width: 100%;
+  max-width: 500px;
+}
+
+.title {
+  width: 100%;
+  color: white;
+  margin: 0;
+  font-size: 40px;
+}
+
+.subtitle {
+  width: 100%;
+  color: white;
+  margin-top: 0;
+}

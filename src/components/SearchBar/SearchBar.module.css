@@ -1,0 +1,33 @@
+.wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.inputField {
+  background-color: #ffffff;
+  border: 3px solid var(--theme-color-light);
+  color: #333333;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s;
+  border-radius: var(--light-border-radius);
+  width: 100%;
+  padding: var(--medium-padding);
+  box-sizing: border-box;
+}
+
+.inputField:focus,
+.inputField:hover {
+  border-color: var(--theme-color-dark);
+}
+
+.error {
+  color: red;
+  width: 100%;
+  font-weight: 500;
+  background-color: rgb(255, 255, 255, 0.8);
+  padding: 5px 10px;
+  box-sizing: border-box;
+  border-radius: var(--light-border-radius);
+  text-shadow: none;
+}
